@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR MySQL Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.5/signalr.min.js"></script>
+</head>
+<body>
+    <h2>SignalR + MySQL Demo (Realtime)</h2>
+    <input id="msgInput" placeholder="Type message to save via app">
+    <button onclick="sendMessage()">Send (via App)</button>
+    <h3>Live log (messages pushed by server)</h3>
+    <div id="log"></div>
+
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/messageHub")
+            .build();
+
+        connection.on("ReceiveMessage", (text, time) => {
+            const log = document.getElementById("log");
+            log.innerHTML = `<p><b>${time}:</b> ${text}</p>` + log.innerHTML;
+        });
+
+        connection.start().catch(err => console.error(err));
+
+        function sendMessage() {
+            const text = document.getElementById("msgInput").value;
+            fetch("/api/message", {
+                method: "POST",
+                body: new URLSearchParams({ text })
+            });
+            document.getElementById("msgInput").value = "";
+        }
+    </script>
+</body>
+</html>

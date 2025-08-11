@@ -1,0 +1,68 @@
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.AssemblyInfoInputs.cache
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.AssemblyInfo.cs
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.csproj.CoreCompileInputs.cache
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.RazorAssemblyInfo.cache
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.RazorAssemblyInfo.cs
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\appsettings.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.staticwebassets.runtime.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.staticwebassets.endpoints.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.exe
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.deps.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.runtimeconfig.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.dll
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.pdb
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\scopedcss\bundle\SignalR_Without_DB.styles.css
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\scopedcss\projectbundle\SignalR_Without_DB.bundle.scp.css
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.SignalR_Without_DB.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.SignalR_Without_DB.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.build.SignalR_Without_DB.props
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SignalR_Without_DB.props
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SignalR_Without_DB.props
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.dll
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\refint\SignalR_Without_DB.dll
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.pdb
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.genruntimeconfig.cache
+C:\Users\nextgen-crs\source\repos\SignalR_Without_DB\obj\Debug\net8.0\ref\SignalR_Without_DB.dll
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\appsettings.Development.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\appsettings.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.staticwebassets.endpoints.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.staticwebassets.runtime.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.exe
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.deps.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.runtimeconfig.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.dll
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\bin\Debug\net8.0\SignalR_Without_DB.pdb
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.GeneratedMSBuildEditorConfig.editorconfig
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.AssemblyInfoInputs.cache
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.AssemblyInfo.cs
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.csproj.CoreCompileInputs.cache
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.MvcApplicationPartsAssemblyInfo.cache
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.RazorAssemblyInfo.cache
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.RazorAssemblyInfo.cs
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\scopedcss\bundle\SignalR_Without_DB.styles.css
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\scopedcss\projectbundle\SignalR_Without_DB.bundle.scp.css
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.build.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.development.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.SignalR_Without_DB.Microsoft.AspNetCore.StaticWebAssets.props
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.SignalR_Without_DB.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.build.SignalR_Without_DB.props
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SignalR_Without_DB.props
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SignalR_Without_DB.props
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.pack.json
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.dll
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\refint\SignalR_Without_DB.dll
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.pdb
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\SignalR_Without_DB.genruntimeconfig.cache
+P:\Aimil WorkSpace\SignalR Practice\SignalR_Without_DB\obj\Debug\net8.0\ref\SignalR_Without_DB.dll

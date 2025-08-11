@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SignalR.Controllers.MessageController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

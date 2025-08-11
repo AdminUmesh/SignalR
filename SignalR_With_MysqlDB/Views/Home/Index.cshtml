@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "SignalR MySQL Demo";
+}
+
+<h1>SignalR + MySQL Demo (Realtime)</h1>
+
+<form asp-action="Send" method="post">
+    <input name="message" id="msg" placeholder="Type message to save via app" />
+    <button type="submit">Send (via App)</button>
+    @Html.AntiForgeryToken()
+</form>
+
+<hr />
+
+<h3>Live log (messages pushed by server)</h3>
+<div id="log" style="border:1px solid #ddd;padding:10px;height:200px;overflow:auto;"></div>
+
+<p>
+    To test external inserts: run<br />
+    <code>INSERT INTO messages (text) VALUES ('hello from workbench');</code><br />
+    You should see it appear in the log within ~2 seconds.
+</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/notifyHub")
+        .withAutomaticReconnect()
+        .build();
+
+    connection.on("ReceiveMessage", msg => {
+        const log = document.getElementById("log");
+        log.innerHTML += `<div>${new Date().toLocaleTimeString()} - ${msg}</div>`;
+        log.scrollTop = log.scrollHeight;
+    });
+
+    connection.start().catch(err => console.error(err));
+</script>

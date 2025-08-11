@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "SignalR Notifications";
+}
+
+<h1>SignalR Notifications</h1>
+<input id="msg" placeholder="Type message" />
+<button onclick="sendMessage()">Send</button>
+<div id="log"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/notifyHub")
+        .build();
+
+    connection.on("ReceiveMessage", msg => {
+        document.getElementById("log").innerHTML += `<p>${msg}</p>`;
+    });
+
+    connection.start().catch(err => console.error(err));
+
+    function sendMessage() {
+        let msg = document.getElementById("msg").value;
+        connection.invoke("SendMessage", msg).catch(err => console.error(err));
+    }
+</script>
