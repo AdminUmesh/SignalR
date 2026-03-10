@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|p:\\aimil workspace\\git repo\\signalr\\signalrdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|p:\\aimil workspace\\git repo\\signalr\\signalrdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|p:\\aimil workspace\\git repo\\signalr\\signalrdemo\\hubs\\chathubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:hubs\\chathubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|p:\\aimil workspace\\git repo\\signalr\\signalrdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|p:\\aimil workspace\\git repo\\signalr\\signalrdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +50,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T10:45:56.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAgwHYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAQwJEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-10T08:45:56.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DatabasePollingService.cs",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\Services\\DatabasePollingService.cs",
               "RelativeDocumentMoniker": "Services\\DatabasePollingService.cs",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "Services\\DatabasePollingService.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:45:24.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T08:45:24.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MessageController.cs",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\Controllers\\MessageController.cs",
               "RelativeDocumentMoniker": "Controllers\\MessageController.cs",
@@ -80,12 +96,11 @@
               "RelativeToolTip": "Controllers\\MessageController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:44:35.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T08:44:35.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ChatHubController.cs",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\Hubs\\ChatHubController.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHubController.cs",
@@ -93,12 +108,11 @@
               "RelativeToolTip": "Hubs\\ChatHubController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAIwB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:43:48.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T08:43:48.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -111,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -119,8 +133,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-10T08:41:42.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T08:41:42.892Z"
             }
           ]
         }

@@ -1,94 +1,105 @@
-﻿@* <h2>SignalR Demo</h2>
-
-<ul id="messages"></ul>
-
+﻿<!-- SIGNALR SCRIPT -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
 
-<script>
-
-    const connection = new signalR.HubConnectionBuilder()
-        .withUrl("/chatHub")
-        .withAutomaticReconnect()
-        .build();
-
-    connection.on("ReceiveMessage", function (user, message) {
-
-        const li = document.createElement("li");
-
-        li.textContent = user + " : " + message;
-
-        document.getElementById("messages").appendChild(li);
-    });
-
-    connection.start()
-        .then(() => console.log("Connected"))
-        .catch(err => console.error(err));
-
-</script> *@
-
-<h2>SignalR Chat Test</h2>
-
-<div>
-    <b>Your Connection ID:</b>
-    <span id="connectionId"></span>
-</div>
-
-<br>
-
-<input id="user" placeholder="User name" />
-<input id="message" placeholder="Message" />
-
-<br>
-<br>
-
-<button onclick="sendAll()">Send To All</button>
-<button onclick="sendOthers()">Send To Others</button>
-
-<br>
-<br>
-
-<input id="targetConnection" placeholder="Target ConnectionId" />
-<button onclick="sendPrivate()">Send Private</button>
+<button onclick="showBasic()">Basic Chat Demo</button>
+<button onclick="showAdvanced()">Advanced Chat Test</button>
 
 <hr>
 
-<ul id="messages"></ul>
+<!-- BASIC CHAT -->
+<div id="basicChat" style="display:none;">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+    <h3>Basic Chat Demo</h3>
+
+    <ul id="basicMessages"></ul>
+
+</div>
+
+
+<!-- ADVANCED CHAT -->
+<div id="advancedChat">
+
+    <h3>Advanced Chat Test</h3>
+
+    <div>
+        <b>Your Connection ID:</b>
+        <span id="connectionId"></span>
+    </div>
+
+    <br>
+
+    <input id="user" placeholder="User name" />
+    <input id="message" placeholder="Message" />
+
+    <br><br>
+
+    <button onclick="sendAll()">Send To All</button>
+    <button onclick="sendOthers()">Send To Others</button>
+
+    <br><br>
+
+    <input id="targetConnection" placeholder="Target ConnectionId" />
+    <button onclick="sendPrivate()">Send Private</button>
+
+    <hr>
+
+    <ul id="advancedMessages"></ul>
+
+</div>
+
 
 <script>
 
+    // ✅ SINGLE SIGNALR CONNECTION
     const connection = new signalR.HubConnectionBuilder()
         .withUrl("/chatHub")
         .withAutomaticReconnect()
         .build();
 
+    // START CONNECTION
     connection.start().then(() => {
-
-        document.getElementById("connectionId").innerText = connection.connectionId;
 
         console.log("Connected:", connection.connectionId);
 
-    });
+        const idElement = document.getElementById("connectionId");
 
+        if (idElement) {
+            idElement.innerText = connection.connectionId;
+        }
+
+    }).catch(err => console.error(err));
+
+
+    // RECEIVE NORMAL MESSAGE
     connection.on("ReceiveMessage", (user, message) => {
 
         const li = document.createElement("li");
         li.textContent = user + " : " + message;
 
-        document.getElementById("messages").appendChild(li);
+        // add to basic chat
+        const basic = document.getElementById("basicMessages");
+        if (basic) basic.appendChild(li.cloneNode(true));
+
+        // add to advanced chat
+        const advanced = document.getElementById("advancedMessages");
+        if (advanced) advanced.appendChild(li);
 
     });
 
+
+    // RECEIVE PRIVATE MESSAGE
     connection.on("ReceivePrivateMessage", (message) => {
 
         const li = document.createElement("li");
         li.textContent = "Private: " + message;
 
-        document.getElementById("messages").appendChild(li);
+        const advanced = document.getElementById("advancedMessages");
+        if (advanced) advanced.appendChild(li);
 
     });
 
+
+    // SEND TO ALL
     function sendAll() {
 
         const user = document.getElementById("user").value;
@@ -98,6 +109,8 @@
 
     }
 
+
+    // SEND TO OTHERS
     function sendOthers() {
 
         const user = document.getElementById("user").value;
@@ -107,6 +120,8 @@
 
     }
 
+
+    // SEND PRIVATE
     function sendPrivate() {
 
         const target = document.getElementById("targetConnection").value;
@@ -114,6 +129,18 @@
 
         connection.invoke("SendToUser", target, message);
 
+    }
+
+
+    // TOGGLE UI
+    function showBasic() {
+        document.getElementById("basicChat").style.display = "block";
+        document.getElementById("advancedChat").style.display = "none";
+    }
+
+    function showAdvanced() {
+        document.getElementById("basicChat").style.display = "none";
+        document.getElementById("advancedChat").style.display = "block";
     }
 
 </script>
