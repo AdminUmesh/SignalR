@@ -1,0 +1,119 @@
+﻿@* <h2>SignalR Demo</h2>
+
+<ul id="messages"></ul>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+
+<script>
+
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chatHub")
+        .withAutomaticReconnect()
+        .build();
+
+    connection.on("ReceiveMessage", function (user, message) {
+
+        const li = document.createElement("li");
+
+        li.textContent = user + " : " + message;
+
+        document.getElementById("messages").appendChild(li);
+    });
+
+    connection.start()
+        .then(() => console.log("Connected"))
+        .catch(err => console.error(err));
+
+</script> *@
+
+<h2>SignalR Chat Test</h2>
+
+<div>
+    <b>Your Connection ID:</b>
+    <span id="connectionId"></span>
+</div>
+
+<br>
+
+<input id="user" placeholder="User name" />
+<input id="message" placeholder="Message" />
+
+<br>
+<br>
+
+<button onclick="sendAll()">Send To All</button>
+<button onclick="sendOthers()">Send To Others</button>
+
+<br>
+<br>
+
+<input id="targetConnection" placeholder="Target ConnectionId" />
+<button onclick="sendPrivate()">Send Private</button>
+
+<hr>
+
+<ul id="messages"></ul>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+
+<script>
+
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chatHub")
+        .withAutomaticReconnect()
+        .build();
+
+    connection.start().then(() => {
+
+        document.getElementById("connectionId").innerText = connection.connectionId;
+
+        console.log("Connected:", connection.connectionId);
+
+    });
+
+    connection.on("ReceiveMessage", (user, message) => {
+
+        const li = document.createElement("li");
+        li.textContent = user + " : " + message;
+
+        document.getElementById("messages").appendChild(li);
+
+    });
+
+    connection.on("ReceivePrivateMessage", (message) => {
+
+        const li = document.createElement("li");
+        li.textContent = "Private: " + message;
+
+        document.getElementById("messages").appendChild(li);
+
+    });
+
+    function sendAll() {
+
+        const user = document.getElementById("user").value;
+        const message = document.getElementById("message").value;
+
+        connection.invoke("SendToAll", user, message);
+
+    }
+
+    function sendOthers() {
+
+        const user = document.getElementById("user").value;
+        const message = document.getElementById("message").value;
+
+        connection.invoke("SendToOthers", user, message);
+
+    }
+
+    function sendPrivate() {
+
+        const target = document.getElementById("targetConnection").value;
+        const message = document.getElementById("message").value;
+
+        connection.invoke("SendToUser", target, message);
+
+    }
+
+</script>
