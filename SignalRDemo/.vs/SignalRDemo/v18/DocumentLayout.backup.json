@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitRepo\\SignalR\\SignalRDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|d:\\gitrepo\\signalr\\signalrdemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|d:\\gitrepo\\signalr\\signalrdemo\\hubs\\chathubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:hubs\\chathubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|d:\\gitrepo\\signalr\\signalrdemo\\services\\databasepollingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:services\\databasepollingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|d:\\gitrepo\\signalr\\signalrdemo\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|d:\\gitrepo\\signalr\\signalrdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|d:\\gitrepo\\signalr\\signalrdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|d:\\gitrepo\\signalr\\signalrdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10818824-C630-49DC-A3F3-EF39253E9486}|SignalRDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitRepo\\SignalR\\SignalRDemo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GitRepo\\SignalR\\SignalRDemo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T17:12:40.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabasePollingService.cs",
+              "DocumentMoniker": "D:\\GitRepo\\SignalR\\SignalRDemo\\Services\\DatabasePollingService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabasePollingService.cs",
+              "ToolTip": "D:\\GitRepo\\SignalR\\SignalRDemo\\Services\\DatabasePollingService.cs",
+              "RelativeToolTip": "Services\\DatabasePollingService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T17:12:40.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "D:\\GitRepo\\SignalR\\SignalRDemo\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MessageController.cs",
+              "ToolTip": "D:\\GitRepo\\SignalR\\SignalRDemo\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "Controllers\\MessageController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T17:12:40.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHubController.cs",
+              "DocumentMoniker": "D:\\GitRepo\\SignalR\\SignalRDemo\\Hubs\\ChatHubController.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHubController.cs",
+              "ToolTip": "D:\\GitRepo\\SignalR\\SignalRDemo\\Hubs\\ChatHubController.cs",
+              "RelativeToolTip": "Hubs\\ChatHubController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T17:12:40.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitRepo\\SignalR\\SignalRDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\GitRepo\\SignalR\\SignalRDemo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-10T17:12:40.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitRepo\\SignalR\\SignalRDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitRepo\\SignalR\\SignalRDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T17:12:40.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitRepo\\SignalR\\SignalRDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitRepo\\SignalR\\SignalRDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T17:12:40.998Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

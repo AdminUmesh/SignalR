@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\SignalRDemo.csproj": {}
+    "D:\\GitRepo\\SignalR\\SignalRDemo\\SignalRDemo.csproj": {}
   },
   "projects": {
-    "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\SignalRDemo.csproj": {
+    "D:\\GitRepo\\SignalR\\SignalRDemo\\SignalRDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\SignalRDemo.csproj",
+        "projectUniqueName": "D:\\GitRepo\\SignalR\\SignalRDemo\\SignalRDemo.csproj",
         "projectName": "SignalRDemo",
-        "projectPath": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\SignalRDemo.csproj",
-        "packagesPath": "C:\\Users\\nextgen-crs\\.nuget\\packages\\",
-        "outputPath": "P:\\Aimil WorkSpace\\Git Repo\\SignalR\\SignalRDemo\\obj\\",
+        "projectPath": "D:\\GitRepo\\SignalR\\SignalRDemo\\SignalRDemo.csproj",
+        "packagesPath": "C:\\Users\\umesh\\.nuget\\packages\\",
+        "outputPath": "D:\\GitRepo\\SignalR\\SignalRDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nextgen-crs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\umesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -78,6 +78,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.24, 8.0.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

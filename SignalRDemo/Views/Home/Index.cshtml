@@ -49,6 +49,7 @@
 
 
 <script>
+    debugger;
 
     // ✅ SINGLE SIGNALR CONNECTION
     const connection = new signalR.HubConnectionBuilder()
@@ -72,7 +73,7 @@
 
     // RECEIVE NORMAL MESSAGE
     connection.on("ReceiveMessage", (user, message) => {
-
+        debugger;
         const li = document.createElement("li");
         li.textContent = user + " : " + message;
 
@@ -89,7 +90,7 @@
 
     // RECEIVE PRIVATE MESSAGE
     connection.on("ReceivePrivateMessage", (message) => {
-
+        debugger;
         const li = document.createElement("li");
         li.textContent = "Private: " + message;
 

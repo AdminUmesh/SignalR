@@ -1,8 +1,5 @@
-# Complete Deep Guide: Using SignalR in ASP.NET Core (.NET)
+# Using SignalR in ASP.NET Core (.NET)
 
-This guide explains **from scratch to intermediate level** how to
-integrate **SignalR** into an ASP.NET Core project and implement
-real-time communication patterns used in real applications.
 
 ------------------------------------------------------------------------
 
@@ -55,14 +52,14 @@ Developers **do not manage these manually**.
 
 # 4. Core SignalR Components
 
-  Component      Description
-  -------------- ----------------------------------------
-  Hub            Server-side endpoint for communication
-  Client         Browser or app connected to hub
-  ConnectionId   Unique id per connection
-  UserId         Identifier for authenticated user
-  Groups         Logical grouping of clients
-  HubContext     Send messages outside hub
+  |Component     | Description|
+  |--------------| ----------------------------------------|
+  | Hub         |   Server-side endpoint for communication |
+  | Client      |   Browser or app connected to hub   |
+  |ConnectionId  | Unique id per connection |
+  |UserId        | Identifier for authenticated user |
+  |Groups        | Logical grouping of clients |
+  |HubContext     |Send messages outside hub |
 
 ------------------------------------------------------------------------
 
